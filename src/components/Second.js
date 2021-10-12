@@ -16,7 +16,7 @@ import { useHistory } from "react-router-dom";
 
 function clickSubmit() {}
 
-export default function App() {
+export default function Second() {
   let history = useHistory();
   const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
 
@@ -25,14 +25,14 @@ export default function App() {
   };
 
   const redirect = () => {
-    history.push("./components/Second")
+    history.push('/your-path')
   }
 
   return (
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following kitchen appliances do you use? </h1>
+          <h1>Second? </h1>
         </Col>
       </Row>
       <Row>
@@ -61,7 +61,7 @@ export default function App() {
       </Row>
       <Row>
         <Col>
-          <Button onClick={redirect}>submit</Button>
+          <Button onClick={}>submit</Button>
         </Col>
       </Row>
     </Stack>
