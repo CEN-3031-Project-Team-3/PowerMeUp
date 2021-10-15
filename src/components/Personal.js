@@ -1,38 +1,19 @@
-import * as React from "react";
-import FormatBoldIcon from "@mui/icons-material/FormatBold";
-import FormatItalicIcon from "@mui/icons-material/FormatItalic";
-import FormatUnderlinedIcon from "@mui/icons-material/FormatUnderlined";
-import FormatColorFillIcon from "@mui/icons-material/FormatColorFill";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import ToggleButton from "@mui/material/ToggleButton";
-import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Stack from "react-bootstrap/Stack";
+import React from "react";
+import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
+import {Row, Col, Button, Stack} from "react-bootstrap/";
 
-import { useHistory } from "react-router-dom";
-
-function clickSubmit() {}
-
-export default function Second() {
-  let history = useHistory();
+export default function Personal() {
   const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
 
   const handleFormat = (event, newFormats) => {
     setFormats(newFormats);
   };
 
-  const redirect = () => {
-    history.push('/your-path')
-  }
-
   return (
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Second? </h1>
+          <h1>Which of the following personal appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -61,7 +42,7 @@ export default function Second() {
       </Row>
       <Row>
         <Col>
-          <Button onClick={}>submit</Button>
+          <Button>submit</Button>
         </Col>
       </Row>
     </Stack>
