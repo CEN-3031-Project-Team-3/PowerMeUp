@@ -1,6 +1,9 @@
 import React from 'react';
  
 import { NavLink } from 'react-router-dom';
+import {Row, Col, Button, Stack} from "react-bootstrap/";
+
+const pages = ["/", "kitchen", "personal"]
  
 const Navigation = () => {
     return (
@@ -8,6 +11,7 @@ const Navigation = () => {
           <NavLink to="/">Entertainment </NavLink>
           <NavLink to="/kitchen">Kitchen </NavLink>
           <NavLink to="/personal">Personal </NavLink>
+          <Button>submit</Button>
        </div>
     );
 }

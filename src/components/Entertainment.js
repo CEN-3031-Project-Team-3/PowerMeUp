@@ -1,6 +1,7 @@
 import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
+import { NavLink } from 'react-router-dom';
 
 export default function Enterntainment() {
   const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
@@ -42,7 +43,7 @@ export default function Enterntainment() {
       </Row>
       <Row>
         <Col>
-          <Button>submit</Button>
+        <NavLink to="/kitchen">Kitchen </NavLink>
         </Col>
       </Row>
     </Stack>
