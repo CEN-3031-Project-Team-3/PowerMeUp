@@ -14,7 +14,7 @@ export default function Enterntainment() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following Entertainment appliances do you use? </h1>
+          <h1>Which of the following entertainment appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -43,7 +43,9 @@ export default function Enterntainment() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/kitchen">Kitchen </NavLink>
+        <NavLink to="/kitchen">
+          <Button>Next</Button>
+        </NavLink>
         </Col>
       </Row>
     </Stack>

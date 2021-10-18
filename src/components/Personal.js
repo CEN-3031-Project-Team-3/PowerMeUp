@@ -43,7 +43,9 @@ export default function Personal() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/">Entertainment </NavLink>
+        <NavLink to="/">
+          <Button>Next</Button>
+        </NavLink>
         </Col>
       </Row>
     </Stack>

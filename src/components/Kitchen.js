@@ -43,7 +43,9 @@ export default function Kitchen() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/personal">Personal </NavLink>
+        <NavLink to="/personal">
+          <Button>Next</Button>
+        </NavLink>
         </Col>
       </Row>
     </Stack>
