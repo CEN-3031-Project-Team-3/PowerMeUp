@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Loading from './components/Loading'
+
+// <Loading/> is there for testing purposes. Change to <App/> when done
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/> 
   </React.StrictMode>,
   document.getElementById('root')
 );
