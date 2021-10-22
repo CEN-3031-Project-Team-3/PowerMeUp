@@ -39,6 +39,12 @@ export default function Kitchen() {
           <ToggleButton value="toaster" aria-label="toaster">
             Toaster
           </ToggleButton>
+          <ToggleButton value="Microwave" aria-label="Microwave">
+            Microwave
+          </ToggleButton>
+          <ToggleButton value="Coffee Maker" aria-label="Coffee Maker">
+            Coffee Maker
+          </ToggleButton>
         </ToggleButtonGroup>
       </Row>
       <Row>
