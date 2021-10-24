@@ -7,6 +7,7 @@ import Kitchen from "./components/Kitchen";
 import Personal from "./components/Personal";
 import Error from "./components/Error";
 import Navigation from "./components/Navigation";
+import Results from "./components/Results";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/entertainment" component={Enterntainment} exact />
             <Route path="/kitchen" component={Kitchen} />
             <Route path="/personal" component={Personal} />
+            <Route path="/results" component={Results} />
             <Route component={Error} />
           </Switch>
         </div>

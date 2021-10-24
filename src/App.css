@@ -48,3 +48,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-results {
+  border-radius: 15px;
+  background-color: chartreuse;
+  align-content: center;
+  min-height: min-content;
+  max-width: max-content;
+  display: flex;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
