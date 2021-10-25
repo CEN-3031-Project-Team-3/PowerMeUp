@@ -50,13 +50,36 @@
 }
 
 .App-results {
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+  /*
   border-radius: 15px;
   background-color: chartreuse;
   align-content: center;
-  min-height: min-content;
-  max-width: max-content;
+  min-height: 200px; 
+  min-width: 200px;
+  max-width: max-content ; 
   display: flex;
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  */
+}
+
+.App-results.good {
+  background: chartreuse;
+}
+
+.App-results.bad {
+  background: rgb(182, 185, 175);
+}
+
+.App-results h1 {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
 }

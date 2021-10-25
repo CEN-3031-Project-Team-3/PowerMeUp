@@ -21,40 +21,48 @@ export default function Results(){
           <Row>
             <Col sm="auto">
                 <div className="App">
-                    <header className="App-results">
-                            <p>
-                            Your results here:
-                            </p>
+                    <header className="App-results bad">
+                            <h1>Coal</h1>
+                            <p></p>
+                            <p>Your energy consumption would require: </p>
+                            <h2>35</h2>
+                            <p> tons of coal every week</p> 
                     </header>
                 </div>
             </Col>
 
             <Col sm="auto">
                 <div className="App">
-                    <header className="App-results">
-
-                            <p>
-                            Your results here:
-                            </p>
-                        <div></div>
-                            <p>
-                                Something goes here
-                            </p>
+                    <header className="App-results bad">
+                    <h1>Natural Gas</h1>
+                    <p></p>
+                    <p>Your energy consumption would require: </p>
+                    <h2>20</h2>
+                    <p> tons of natural gas every week</p>
                     </header>
                 </div>
             </Col>
 
             <Col sm="auto">
                 <div className="App">
-                    <header className="App-results">
+                    <header className="App-results good">
+                    <h1>Solar</h1>
+                            <p></p>
+                            <p>Your energy consumption would require: </p>
+                            <h2>200</h2>
+                            <p> sq ft of solar panels</p>
+                    </header>
+                </div>
+            </Col>
 
-                            <p>
-                            Your results here:
-                            </p>
-
-                            <p>
-                                Something goes here
-                            </p>
+            <Col sm="auto">
+                <div className="App">
+                    <header className="App-results good">
+                    <h1>Wind</h1>
+                            <p></p>
+                            <p>A large wind turbine could power: </p>
+                            <h2>200</h2>
+                            <p> homes with your energy usage</p>
                     </header>
                 </div>
             </Col>
