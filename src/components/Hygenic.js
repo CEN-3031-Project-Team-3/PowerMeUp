@@ -3,7 +3,7 @@ import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
 
-export default function Enterntainment() {
+export default function Hygenic() {
   const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
 
   const handleFormat = (event, newFormats) => {
@@ -14,7 +14,7 @@ export default function Enterntainment() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following entertainment appliances do you use? </h1>
+          <h1>Which of the following hygenic appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,26 +24,21 @@ export default function Enterntainment() {
           onChange={handleFormat}
           aria-label="text formatting"
         >
-          <ToggleButton value="refrigerator" aria-label="refrigerator">
-            Refrigerator
+          <ToggleButton value="hair dryer" aria-label="hair dryer">
+            Hair Dryer
           </ToggleButton>
-          <ToggleButton
-            value="dishwashing machine"
-            aria-label="diswashing machine"
-          >
-            Dishwashing Machine
+          <ToggleButton value="electric shaver" aria-label="electric shaver">
+            Electric Shaver
           </ToggleButton>
-          <ToggleButton value="oven" aria-label="oven">
-            Oven
+          <ToggleButton value="electric toothbrush" aria-label="electric toothbrush">
+            Electric Toothbrush
           </ToggleButton>
-          <ToggleButton value="toaster" aria-label="toaster">
-            Toaster
-          </ToggleButton>
+ 
         </ToggleButtonGroup>
       </Row>
       <Row>
         <Col>
-        <NavLink to="/kitchen">
+        <NavLink to="/Kitchen">
           <Button>Next</Button>
         </NavLink>
         </Col>

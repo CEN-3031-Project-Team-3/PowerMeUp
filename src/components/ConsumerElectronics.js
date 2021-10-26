@@ -61,7 +61,7 @@ export default function ConsumerElectronics() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/kitchen">
+        <NavLink to="/Environmental">
           <Button>Next</Button>
         </NavLink>
         </Col>
