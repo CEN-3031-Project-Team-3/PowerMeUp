@@ -43,6 +43,8 @@ export default function Results(){
                 </div>
             </Col>
 
+        </Row>
+        <Row>
             <Col sm="auto">
                 <div className="App">
                     <header className="App-results good">
