@@ -1,6 +1,6 @@
 import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
-import {Row, Col, Button, Stack} from "react-bootstrap/";
+import {Row, Col, Button, Stack, Container} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
 
 export default function Results(){
@@ -12,13 +12,15 @@ export default function Results(){
     };
 
     return (
-        <Stack gap={5}>
-          <Row>
-            <Col>
+        <Stack gap={4}>
+
+          <Row className="justify-content-md-center">
+            <Col sm="auto">
               <h1>Results Page </h1>
             </Col>
           </Row>
-          <Row>
+          
+          <Row className="justify-content-md-center">
             <Col sm="auto">
                 <div className="App">
                     <header className="App-results bad">
@@ -44,7 +46,7 @@ export default function Results(){
             </Col>
 
         </Row>
-        <Row>
+        <Row className="justify-content-md-center">
             <Col sm="auto">
                 <div className="App">
                     <header className="App-results good">
@@ -71,7 +73,7 @@ export default function Results(){
 
         </Row>
         <Row xs="auto">
-            <Col md={{ span:4, offset:5 }}>
+            <Col>
                 <NavLink to="/">
                     <Button>Return</Button>
                 </NavLink>
