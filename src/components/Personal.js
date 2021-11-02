@@ -43,8 +43,8 @@ export default function Personal() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/">
-          <Button>Next</Button>
+        <NavLink to="/results">
+          <Button>Submit</Button>
         </NavLink>
         </Col>
       </Row>
