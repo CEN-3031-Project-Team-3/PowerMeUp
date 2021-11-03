@@ -38,7 +38,7 @@ export default function Hygenic() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/Kitchen">
+        <NavLink to="/Cleaning">
           <Button>Next</Button>
         </NavLink>
         </Col>

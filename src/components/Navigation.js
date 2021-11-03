@@ -3,14 +3,17 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 
-const pages = ["/", "kitchen", "personal"]
+const pages = ["/", "kitchen", "Hygenic", "Environmental", "Cleaning", "ConsumerElectronics"]
  
 const Navigation = () => {
     return (
        <div>
           <NavLink to="/">Entertainment </NavLink>
           <NavLink to="/kitchen">Kitchen </NavLink>
-          <NavLink to="/hygenic">Personal </NavLink>
+          <NavLink to="/hygenic">Hygenic </NavLink>
+          <NavLink to="/environmental">Environmental </NavLink>
+          <NavLink to="/cleaning">Cleaning </NavLink>
+          <NavLink to="/consumerElectronics">ConsumerElectronics </NavLink>
           <Button>submit</Button>
        </div>
     );

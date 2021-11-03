@@ -50,7 +50,7 @@ export default function Cleaning() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/consumerElectronics">
+        <NavLink to="/ConsumerElectronics">
           <Button>Next</Button>
         </NavLink>
         </Col>
