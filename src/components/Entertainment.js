@@ -2,12 +2,15 @@ import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react'
 
-export default function Enterntainment() {
-  const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
+const Entertainment = () => {
+  const [inputs, setInputs] = useState();
 
-  const handleFormat = (event, newFormats) => {
-    setFormats(newFormats);
+  const handleInput = (event, newInputs) => {
+    setInputs(newInputs);
+    
+    
   };
 
   return (
@@ -20,8 +23,8 @@ export default function Enterntainment() {
       <Row>
         <ToggleButtonGroup
           orientation="vertical"
-          value={formats}
-          onChange={handleFormat}
+          value={inputs}
+          onChange = {handleInput}
           aria-label="text formatting"
         >
           <ToggleButton value="refrigerator" aria-label="refrigerator">
@@ -44,10 +47,16 @@ export default function Enterntainment() {
       <Row>
         <Col>
         <NavLink to="/kitchen">
-          <Button>Next</Button>
+          <Button onClick={() => {
+            console.log(inputs)
+          }}>
+          Next
+          </Button>
         </NavLink>
         </Col>
       </Row>
     </Stack>
   );
 }
+
+export default Entertainment
