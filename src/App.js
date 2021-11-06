@@ -2,9 +2,11 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Welcome from "./components/Welcome";
-import Enterntainment from "./components/Entertainment";
+import ConsumerElectronics from "./components/ConsumerElectronics";
+import Environmental from "./components/Environmental";
+import Cleaning from "./components/Cleaning";
 import Kitchen from "./components/Kitchen";
-import Personal from "./components/Personal";
+import Hygenic from "./components/Hygenic";
 import Error from "./components/Error";
 import Navigation from "./components/Navigation";
 import Results from "./components/Results";
@@ -15,10 +17,13 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Switch>
+          
             <Route path="/" component={Welcome} exact />
-            <Route path="/entertainment" component={Enterntainment} exact />
+            <Route path="/cleaning" component={Cleaning} exact />
+            <Route path="/consumerElectronics" component={ConsumerElectronics} exact />
+            <Route path="/environmental" component={Environmental} exact />
+            <Route path="/hygenic" component={Hygenic} />
             <Route path="/kitchen" component={Kitchen} />
-            <Route path="/personal" component={Personal} />
             <Route path="/results" component={Results} />
             <Route component={Error} />
           </Switch>

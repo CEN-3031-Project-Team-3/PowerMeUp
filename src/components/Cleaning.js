@@ -3,7 +3,7 @@ import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
 
-export default function Kitchen() {
+export default function Cleaning() {
   const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
 
   const handleFormat = (event, newFormats) => {
@@ -14,7 +14,7 @@ export default function Kitchen() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following kitchen appliances do you use? </h1>
+          <h1>Which of the following cleaning appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,32 +24,33 @@ export default function Kitchen() {
           onChange={handleFormat}
           aria-label="text formatting"
         >
-          <ToggleButton value="refrigerator" aria-label="refrigerator">
-            Refrigerator
+          <ToggleButton value="vacuum cleaner" aria-label="vacuum cleaner">
+            Vacuum Cleaner
           </ToggleButton>
           <ToggleButton
-            value="dishwashing machine"
-            aria-label="diswashing machine"
+            value="pressure washer"
+            aria-label="pressure washer"
           >
-            Dishwashing Machine
+            Pressure Washer
           </ToggleButton>
-          <ToggleButton value="oven" aria-label="oven">
-            Oven
+          <ToggleButton
+            value="laundry washer"
+            aria-label="laundry washer"
+          >
+            Laundry Washer
           </ToggleButton>
-          <ToggleButton value="toaster" aria-label="toaster">
-            Toaster
+          <ToggleButton
+            value="laundry dryer"
+            aria-label="laundry dryer"
+          >
+            Laundry Dryer
           </ToggleButton>
-          <ToggleButton value="Microwave" aria-label="Microwave">
-            Microwave
-          </ToggleButton>
-          <ToggleButton value="Coffee Maker" aria-label="Coffee Maker">
-            Coffee Maker
-          </ToggleButton>
+
         </ToggleButtonGroup>
       </Row>
       <Row>
         <Col>
-        <NavLink to="/hygenic">
+        <NavLink to="/ConsumerElectronics">
           <Button>Next</Button>
         </NavLink>
         </Col>
