@@ -38,7 +38,7 @@ export default function Environmental() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/Kitchen">
+        <NavLink to="/kitchen">
           <Button>Next</Button>
         </NavLink>
         </Col>

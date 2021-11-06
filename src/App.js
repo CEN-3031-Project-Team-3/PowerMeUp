@@ -22,8 +22,8 @@ class App extends Component {
             <Route path="/cleaning" component={Cleaning} exact />
             <Route path="/consumerElectronics" component={ConsumerElectronics} exact />
             <Route path="/environmental" component={Environmental} exact />
+            <Route path="/hygenic" component={Hygenic} />
             <Route path="/kitchen" component={Kitchen} />
-            <Route path="/personal" component={Personal} />
             <Route path="/results" component={Results} />
             <Route component={Error} />
           </Switch>

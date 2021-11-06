@@ -15,7 +15,7 @@ function App() {
           Welcome to <code>Power Me Up</code>. Click below to get started!
         </p>
         <br></br>
-        <NavLink to="/Environmental">
+        <NavLink to="/environmental">
           <Button>GET STARTED</Button>
         </NavLink>
       </header>

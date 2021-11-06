@@ -38,8 +38,8 @@ export default function Hygenic() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/results">
-          <Button>Submit</Button>
+        <NavLink to="/cleaning">
+          <Button>Next</Button>
         </NavLink>
         </Col>
       </Row>

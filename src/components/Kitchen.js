@@ -49,7 +49,7 @@ export default function Kitchen() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/Hygenic">
+        <NavLink to="/hygenic">
           <Button>Next</Button>
         </NavLink>
         </Col>
