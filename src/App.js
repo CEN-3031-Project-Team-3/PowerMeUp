@@ -11,24 +11,12 @@ import Navigation from "./components/Navigation";
 import Results from "./components/Results";
 
 function App() {
-  const [inputs, setInputs] = React.useState([
-    {
-      device: 'Oven'
-    },
-    
-  ])
-
-  const addInputs = (newInputs) => {
-    setInputs([...inputs, newInputs])
-    console.log(inputs)
-  }
-
     return (
       <BrowserRouter>
         <div>
           <Switch>
             <Route path="/" component={Welcome} exact />
-            <Route path="/entertainment" component={Entertainment}  exact />
+            <Route path="/entertainment" component = {Entertainment}/>
             <Route path="/kitchen" component={Kitchen} />
             <Route path="/personal" component={Personal} />
             <Route path="/results" component={Results} />

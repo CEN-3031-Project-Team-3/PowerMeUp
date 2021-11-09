@@ -3,14 +3,13 @@ import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react'
+import record from './inputRecord'
 
 const Entertainment = () => {
   const [inputs, setInputs] = useState();
 
   const handleInput = (event, newInputs) => {
     setInputs(newInputs);
-    
-    
   };
 
   return (
@@ -48,7 +47,11 @@ const Entertainment = () => {
         <Col>
         <NavLink to="/kitchen">
           <Button onClick={() => {
-            console.log(inputs)
+            inputs.forEach(element => {
+              record.add(element);
+              
+            });
+            record.show();
           }}>
           Next
           </Button>
