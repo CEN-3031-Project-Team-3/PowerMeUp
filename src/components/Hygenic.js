@@ -2,12 +2,13 @@ import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
+import record from './inputRecord'
 
 export default function Hygenic() {
-  const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
+  const [inputs, setInputs] = React.useState([]);
 
-  const handleFormat = (event, newFormats) => {
-    setFormats(newFormats);
+  const handleInput = (event, newInputs) => {
+    setInputs(newInputs);
   };
 
   return (
@@ -20,8 +21,8 @@ export default function Hygenic() {
       <Row>
         <ToggleButtonGroup
           orientation="vertical"
-          value={formats}
-          onChange={handleFormat}
+          value={inputs}
+          onChange={handleInput}
           aria-label="text formatting"
         >
           <ToggleButton value="hair dryer" aria-label="hair dryer">
@@ -39,7 +40,15 @@ export default function Hygenic() {
       <Row>
         <Col>
         <NavLink to="/cleaning">
-          <Button>Next</Button>
+        <Button onClick={() => {
+            if (inputs.length>=1) { 
+            inputs.forEach(element => {
+              record.add(element);
+            });
+          }
+          }}>
+          Next
+          </Button>
         </NavLink>
         </Col>
       </Row>
