@@ -2,12 +2,13 @@ import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
+import record from './inputRecord'
 
 export default function ConsumerElectronics() {
-  const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
+  const [inputs, setInputs] = React.useState([]);
 
-  const handleFormat = (event, newFormats) => {
-    setFormats(newFormats);
+  const handleInput = (event, newInputs) => {
+    setInputs(newInputs);
   };
 
   return (
@@ -20,8 +21,8 @@ export default function ConsumerElectronics() {
       <Row>
         <ToggleButtonGroup
           orientation="vertical"
-          value={formats}
-          onChange={handleFormat}
+          value={inputs}
+          onChange={handleInput}
           aria-label="text formatting"
         >
           <ToggleButton value="LED/LCD Television" aria-label="LED/LCD Television">
@@ -62,7 +63,14 @@ export default function ConsumerElectronics() {
       <Row>
         <Col>
         <NavLink to="/results">
-          <Button>Next</Button>
+        <Button onClick={() => {
+            inputs.forEach(element => {
+              record.add(element);
+            });
+            record.show();
+          }}>
+          Next
+          </Button>
         </NavLink>
         </Col>
       </Row>

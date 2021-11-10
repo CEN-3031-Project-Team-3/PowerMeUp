@@ -2,12 +2,13 @@ import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
+import record from './inputRecord'
 
 export default function Environmental() {
-  const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
+  const [inputs, setInputs] = React.useState([]);
 
-  const handleFormat = (event, newFormats) => {
-    setFormats(newFormats);
+  const handleInput = (event, newInputs) => {
+    setInputs(newInputs);
   };
 
   return (
@@ -20,8 +21,8 @@ export default function Environmental() {
       <Row>
         <ToggleButtonGroup
           orientation="vertical"
-          value={formats}
-          onChange={handleFormat}
+          value={inputs}
+          onChange={handleInput}
           aria-label="text formatting"
         >
           <ToggleButton value="window air conditioner" aria-label="window air conditioner">
@@ -39,7 +40,16 @@ export default function Environmental() {
       <Row>
         <Col>
         <NavLink to="/kitchen">
-          <Button>Next</Button>
+        <Button onClick={() => {
+          console.log(inputs.length)
+            if (inputs.length>=1) { 
+              inputs.forEach(element => {
+                record.add(element);
+              });
+            }
+          }}>
+          Next
+          </Button>
         </NavLink>
         </Col>
       </Row>
