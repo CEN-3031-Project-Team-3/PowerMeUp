@@ -1,4 +1,5 @@
 import React from "react";
+
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
@@ -14,7 +15,9 @@ export default function Environmental() {
     <Stack gap={5}>
       <Row>
         <Col>
+        <header className="App-environmental question">
           <h1>Which of the following environmental appliances do you use? </h1>
+          </header>
         </Col>
       </Row>
       <Row>

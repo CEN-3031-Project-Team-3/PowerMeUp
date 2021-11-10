@@ -79,8 +79,113 @@
   background: rgb(182, 185, 175);
 }
 
+/*Lines 82-184 Omar 11-9-21*/
+.App-cleaning
+{
+  background: blue;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+}
+
+.App-consumerelectronics
+{
+  background: lightcoral;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffbf00;
+}
+
+.App-entertainment
+{
+  background: violet;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffff00;
+}
+
+.App-environment
+{
+  background: grey;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#40ff00;
+}
+
+.App-hygenic
+{
+  background: lightseagreen;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#00bfff;
+}
+
+.App-kitchen
+{
+  background: orange;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ff00ff;
+}
+
+
+.App-cleaning.togglebutton
+{
+  background: rgb (182, 185, 175)
+}
+
+.App-consumerelectronics.question
+{
+  background: rgb (182, 185, 175)
+}
+
+.App-entertainment.question
+{
+  background: rgb (182, 185, 175)
+}
+
+.App-environment.question
+{
+  background: rgb (182, 185, 175)
+}
+
+.App-hygenic.question
+{
+  background: rgb (182, 185, 175)
+}
+
+.App-kitchen.question
+{
+  background: rgb (182, 185, 175)
+}
+
 .App-results h1 {
   display: flex;
   align-items:flex-start;
   justify-content: space-between;
 }
+

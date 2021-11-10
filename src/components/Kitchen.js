@@ -14,7 +14,9 @@ export default function Kitchen() {
     <Stack gap={5}>
       <Row>
         <Col>
+        <header className="App-kitchen question">
           <h1>Which of the following kitchen appliances do you use? </h1>
+          </header>
         </Col>
       </Row>
       <Row>

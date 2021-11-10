@@ -3,7 +3,7 @@ import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
 
-export default function Cleaning() {
+export default function Enterntainment() {
   const [formats, setFormats] = React.useState(() => ["bold", "italic"]);
 
   const handleFormat = (event, newFormats) => {
@@ -14,8 +14,8 @@ export default function Cleaning() {
     <Stack gap={5}>
       <Row>
         <Col>
-        <header className="App-cleaning question">
-          <h1>Which of the following cleaning appliances do you use? </h1>
+        <header className="App-entertainment question">
+          <h1>Which of the following entertainment appliances do you use? </h1>
           </header>
         </Col>
       </Row>
@@ -26,33 +26,26 @@ export default function Cleaning() {
           onChange={handleFormat}
           aria-label="text formatting"
         >
-          <ToggleButton value="vacuum cleaner" aria-label="vacuum cleaner">
-            Vacuum Cleaner
+          <ToggleButton value="refrigerator" aria-label="refrigerator">
+            Refrigerator
           </ToggleButton>
           <ToggleButton
-            value="pressure washer"
-            aria-label="pressure washer"
+            value="dishwashing machine"
+            aria-label="diswashing machine"
           >
-            Pressure Washer
+            Dishwashing Machine
           </ToggleButton>
-          <ToggleButton
-            value="laundry washer"
-            aria-label="laundry washer"
-          >
-            Laundry Washer
+          <ToggleButton value="oven" aria-label="oven">
+            Oven
           </ToggleButton>
-          <ToggleButton
-            value="laundry dryer"
-            aria-label="laundry dryer"
-          >
-            Laundry Dryer
+          <ToggleButton value="toaster" aria-label="toaster">
+            Toaster
           </ToggleButton>
-
         </ToggleButtonGroup>
       </Row>
       <Row>
         <Col>
-        <NavLink to="/ConsumerElectronics">
+        <NavLink to="/kitchen">
           <Button>Next</Button>
         </NavLink>
         </Col>

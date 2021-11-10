@@ -14,7 +14,9 @@ export default function ConsumerElectronics() {
     <Stack gap={5}>
       <Row>
         <Col>
+        <header className="App-consumerelectronis question">
           <h1>Which of the following entertainment appliances do you use? </h1>
+          </header>
         </Col>
       </Row>
       <Row>

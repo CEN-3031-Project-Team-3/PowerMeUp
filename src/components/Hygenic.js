@@ -14,7 +14,9 @@ export default function Hygenic() {
     <Stack gap={5}>
       <Row>
         <Col>
+        <header className="App-hygenic question">
           <h1>Which of the following hygenic appliances do you use? </h1>
+          </header>
         </Col>
       </Row>
       <Row>
