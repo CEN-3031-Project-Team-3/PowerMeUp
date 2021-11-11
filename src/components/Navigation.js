@@ -3,7 +3,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 
-const pages = ["/", "kitchen", "Hygenic", "Environmental", "Cleaning", "ConsumerElectronics"]
+const pages = ["/", "kitchen", "Hygenic", "Environmental", "Cleaning", "ConsumerElectronics", "Loading"]
  
 const Navigation = () => {
     return (
@@ -16,6 +16,7 @@ const Navigation = () => {
           <NavLink to="/ConsumerElectronics">ConsumerElectronics </NavLink>
           <NavLink to="/loading">Loading </NavLink>
           <NavLink to="/results">Results </NavLink>
+          <NavLink to="/loading">Loading </NavLink>
           <Button>submit</Button>
        </div>
     );

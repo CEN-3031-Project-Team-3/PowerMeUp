@@ -62,7 +62,7 @@ export default function ConsumerElectronics() {
       </Row>
       <Row>
         <Col>
-        <NavLink to="/results">
+        <NavLink to="/loading">
         <Button onClick={() => {
             inputs.forEach(element => {
               record.add(element);
