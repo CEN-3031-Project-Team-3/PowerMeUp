@@ -1,21 +1,27 @@
 import React from "react";
-import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
-import {Row, Col, Button, Stack} from "react-bootstrap/";
-import { NavLink } from 'react-router-dom';
-import logo from '../light-bulb.svg';
+import crud from "../utils/crud"
+import record from './inputRecord'
 
-export default function Loading(){
+export default function Loading() {
+    console.log("pre")
+    try {
+        crud.sendResults(record.getData())
+    } catch(e) {
+        console.error("Error adding document: ", e);
+    }
+
+    console.log("post")
     return (
         <div className="App">
-        <header className="App-loading">
-            <br></br>
-            <br></br>
-            <br></br>
-            <p>
-              Loading Page Here
-            </p>
-            <br></br>
-        </header>
+            <header className="App-loading">
+                <br></br>
+                <br></br>
+                <br></br>
+                <p>
+                    Loading Page Here
+                </p>
+                <br></br>
+            </header>
         </div>
     );
 }

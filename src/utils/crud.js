@@ -1,10 +1,15 @@
 import db from "./firebase"
-import {doc, setDoc} from "firebase/firestore"
+import { collection, addDoc } from "firebase/firestore"
 
-async function sendResults(data) {
-    const res = await db.collection('results').add({
-        data
-    });
-    console.log("added document with ID: ", res.id)
-    return res
+const crud = {
+    sendResults: async function(data) {
+        const docRef = await addDoc(collection(db, "results"), {
+            appliances: data
+        });
+        console.log("Document written with ID: ", docRef.id);
+        return docRef
+    }
 }
+
+
+export default crud
