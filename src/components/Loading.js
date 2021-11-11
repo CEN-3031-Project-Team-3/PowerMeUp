@@ -1,16 +1,21 @@
 import React from "react";
-import crud from "../utils/crud"
-import record from './inputRecord'
+import crud from "../utils/crud";
+import record from './inputRecord';
+import { useHistory } from "react-router-dom";
+
 
 export default function Loading() {
-    console.log("pre")
-    try {
-        crud.sendResults(record.getData())
-    } catch(e) {
-        console.error("Error adding document: ", e);
-    }
+    let history = useHistory();
+    (async () => {
+        const value = await crud.sendResults(record.getData())
+        if (value != null) {
+            console.log("Document ID: ", value);
+            history.push('/results')
+        } else {
+            console.log("Error")
+        }
+    })()
 
-    console.log("post")
     return (
         <div className="App">
             <header className="App-loading">
