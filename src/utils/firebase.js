@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = initializeApp({
+initializeApp({
   apiKey: "AIzaSyCyJn9rwoqcdB6i_eKIqgqTyI0t6asK8JY",
   authDomain: "power-me-up-bd493.firebaseapp.com",
   projectId: "power-me-up-bd493",
