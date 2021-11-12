@@ -1,8 +1,6 @@
 import React from "react";
-import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
-import {Row, Col, Button, Stack, Container} from "react-bootstrap/";
+import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
-import record from './inputRecord'
 
 export default function Results(){
 

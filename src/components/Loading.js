@@ -1,21 +1,32 @@
 import React from "react";
-import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
-import {Row, Col, Button, Stack} from "react-bootstrap/";
-import { NavLink } from 'react-router-dom';
-import logo from '../light-bulb.svg';
+import crud from "../utils/crud";
+import record from './inputRecord';
+import { useHistory } from "react-router-dom";
 
-export default function Loading(){
+
+export default function Loading() {
+    let history = useHistory();
+    (async () => {
+        const value = await crud.sendResults(record.getData())
+        if (value != null) {
+            console.log("Document ID: ", value);
+            history.push('/results')
+        } else {
+            console.log("Error")
+        }
+    })()
+
     return (
         <div className="App">
-        <header className="App-loading">
-            <br></br>
-            <br></br>
-            <br></br>
-            <p>
-              Loading Page Here
-            </p>
-            <br></br>
-        </header>
+            <header className="App-loading">
+                <br></br>
+                <br></br>
+                <br></br>
+                <p>
+                    Loading Page Here
+                </p>
+                <br></br>
+            </header>
         </div>
     );
 }

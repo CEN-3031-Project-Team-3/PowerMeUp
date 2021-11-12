@@ -11,6 +11,10 @@ class inputRecord {
     show(){
         console.log(this.data)
     }
+
+    getData() {
+        return this.data
+    }
 }
 
 const record = new inputRecord()

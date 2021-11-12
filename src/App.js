@@ -8,8 +8,8 @@ import Cleaning from "./components/Cleaning";
 import Kitchen from "./components/Kitchen";
 import Hygenic from "./components/Hygenic";
 import Error from "./components/Error";
-import Navigation from "./components/Navigation";
 import Results from "./components/Results";
+import Loading from "./components/Loading";
 
 class App extends Component {
   render() {
@@ -25,6 +25,7 @@ class App extends Component {
             <Route path="/hygenic" component={Hygenic} />
             <Route path="/kitchen" component={Kitchen} />
             <Route path="/results" component={Results} />
+            <Route path="/loading" component={Loading} />
             <Route component={Error} />
           </Switch>
         </div>
