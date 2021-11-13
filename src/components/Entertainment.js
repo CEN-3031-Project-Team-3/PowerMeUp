@@ -26,21 +26,32 @@ export default function Enterntainment() {
           onChange={handleFormat}
           aria-label="text formatting"
         >
+                    <header className="App-entertainment2 button">
+
           <ToggleButton value="refrigerator" aria-label="refrigerator">
             Refrigerator
           </ToggleButton>
+          </header>
+          <header className="App-entertainment2 button">
           <ToggleButton
             value="dishwashing machine"
             aria-label="diswashing machine"
           >
             Dishwashing Machine
           </ToggleButton>
+          </header>
+          <header className="App-entertainment2 button">
+
           <ToggleButton value="oven" aria-label="oven">
             Oven
           </ToggleButton>
+          </header>
+          <header className="App-entertainment2 button">
+
           <ToggleButton value="toaster" aria-label="toaster">
             Toaster
           </ToggleButton>
+          </header>
         </ToggleButtonGroup>
       </Row>
       <Row>

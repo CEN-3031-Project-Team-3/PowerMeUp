@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Welcome from "./components/Welcome";
+import Entertainment from "./components/Entertainment";
 import ConsumerElectronics from "./components/ConsumerElectronics";
 import Environmental from "./components/Environmental";
 import Cleaning from "./components/Cleaning";
@@ -20,6 +21,7 @@ class App extends Component {
           
             <Route path="/" component={Welcome} exact />
             <Route path="/cleaning" component={Cleaning} exact />
+            <Route path="entertainment" component={Entertainment} exact />
             <Route path="/consumerElectronics" component={ConsumerElectronics} exact />
             <Route path="/environmental" component={Environmental} exact />
             <Route path="/hygenic" component={Hygenic} />

@@ -26,15 +26,23 @@ export default function Hygenic() {
           onChange={handleFormat}
           aria-label="text formatting"
         >
+                  <header className="App-hygenic2 button">
           <ToggleButton value="hair dryer" aria-label="hair dryer">
             Hair Dryer
           </ToggleButton>
+          </header>
+          <header className="App-hygenic2 button">
+
           <ToggleButton value="electric shaver" aria-label="electric shaver">
             Electric Shaver
           </ToggleButton>
+          </header>
+          <header className="App-hygenic2 button">
+
           <ToggleButton value="electric toothbrush" aria-label="electric toothbrush">
             Electric Toothbrush
           </ToggleButton>
+          </header>
  
         </ToggleButtonGroup>
       </Row>
