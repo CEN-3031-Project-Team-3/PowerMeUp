@@ -15,7 +15,9 @@ export default function Environmental() {
     <Stack gap={5}>
       <Row>
         <Col>
+        <header className="App-environmental question">
           <h1>Which of the following environmental appliances do you use? </h1>
+        </header>
         </Col>
       </Row>
       <Row>
@@ -25,15 +27,21 @@ export default function Environmental() {
           onChange={handleInput}
           aria-label="text formatting"
         >
+                            <header className="App-environmental2 button">
           <ToggleButton value="window air conditioner" aria-label="window air conditioner">
             Window Air Conditioner
           </ToggleButton>
+          </header>
+          <header className="App-environmental2 button">
           <ToggleButton value="humidifier" aria-label="humidifier">
             Humidifier
           </ToggleButton>
+          </header>
+          <header className="App-environmental2 button">
           <ToggleButton value="heater" aria-label="heater">
             Heater
           </ToggleButton>
+          </header>
 
         </ToggleButtonGroup>
       </Row>

@@ -79,6 +79,153 @@
   background: rgb(182, 185, 175);
 }
 
+/*Lines 82-184 Omar 11-9-21*/
+.App-cleaning
+{
+  background: rgb(0, 0, 184);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+}
+
+.App-cleaning2
+{
+  background: rgb(0, 157, 255);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+}
+
+.App-consumerelectronics
+{
+  background: rgb(196, 0, 0);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffbf00;
+}
+
+.App-consumerelectronics2
+{
+  background: rgb(255, 72, 0);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffbf00;
+}
+
+.App-entertainment
+{
+  background: rgb(192, 103, 192);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffff00;
+}
+
+.App-entertainment2
+{
+  background: rgb(255, 141, 255);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffff00;
+}
+
+
+.App-environmental
+{
+  background: rgb(128, 128, 128);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#40ff00;
+}
+
+.App-environmental2
+{
+  background: rgb(207, 207, 207);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#40ff00;
+}
+
+.App-hygenic
+{
+  background: lightseagreen;
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#00bfff;
+}
+
+.App-hygenic2
+{
+  background: rgb(47, 255, 245);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#00bfff;
+}
+
+.App-kitchen
+{
+  background: rgb(189, 123, 1);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ff00ff;
+}
+
+.App-kitchen2
+{
+  background: rgb(255, 166, 0);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ff00ff;
+}
+
+
 .App-results h1 {
   display: flex;
   align-items:flex-start;
