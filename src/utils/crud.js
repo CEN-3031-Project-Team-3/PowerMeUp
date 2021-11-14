@@ -2,10 +2,11 @@ import db from "./firebase"
 import { collection, addDoc } from "firebase/firestore"
 
 const crud = {
-    sendResults: async function (data) {
+    sendResults: async function (dictionary, score) {
         try {
             const docRef = await addDoc(collection(db, "results"), {
-                appliances: data
+                dictionary,
+                score: score
             });
             console.log("Document written with ID: ", docRef.id);
             return docRef.id;
