@@ -28,32 +28,32 @@ export default function Cleaning() {
           aria-label="text formatting"
         >
                     <header className="App-cleaning2 button">
-          <ToggleButton value="vacuum cleaner" aria-label="vacuum cleaner">
-            Vacuum Cleaner
+          <ToggleButton value="Vacuum Cleaner" aria-label="Vacuum Cleaner">
+          Vacuum Cleaner
           </ToggleButton>
           </header>
           <header className="App-cleaning2 button">
           <ToggleButton
-            value="pressure washer"
-            aria-label="pressure washer"
+            value="Pressure Washer"
+            aria-label="Pressure Washer"
           >
             Pressure Washer
           </ToggleButton>
           </header>
-          <header className="App-cleaning2 button">
+          <header className="App-cleaning2 button">gi
           <ToggleButton
-            value="laundry washer"
-            aria-label="laundry washer"
+            value="Washing Machine"
+            aria-label="Washing Machine"
           >
-            Laundry Washer
+           Washing Machine
           </ToggleButton>
           </header>
           <header className="App-cleaning2 button">
           <ToggleButton
-            value="laundry dryer"
-            aria-label="laundry dryer"
+            value="Clothes Dryer"
+            aria-label="Clothes Dryer"
           >
-            Laundry Dryer
+            Clothes Dryer
           </ToggleButton>
           </header>
 

@@ -28,36 +28,36 @@ export default function Kitchen() {
           aria-label="text formatting"
         >
                             <header className="App-kitchen2 button">
-          <ToggleButton value="refrigerator" aria-label="refrigerator">
-            Refrigerator
+          <ToggleButton value="Refrigerator" aria-label="Refrigerator">
+          Refrigerator
           </ToggleButton>
           </header>
           <header className="App-kitchen2 button">
           <ToggleButton
-            value="dishwashing machine"
-            aria-label="diswashing machine"
+            value="Dishwasher"
+            aria-label="Dishwasher"
           >
-            Dishwashing Machine
+            Dishwasher
           </ToggleButton>
           </header>
           <header className="App-kitchen2 button">
-          <ToggleButton value="oven" aria-label="oven">
-            Oven
+          <ToggleButton value="Oven" aria-label="Oven">
+          Oven
           </ToggleButton>
           </header>
           <header className="App-kitchen2 button">
-          <ToggleButton value="toaster" aria-label="toaster">
-            Toaster
+          <ToggleButton value="Toaster" aria-label="Toaster">
+          Toaster
           </ToggleButton>
           </header>
           <header className="App-kitchen2 button">
           <ToggleButton value="Microwave" aria-label="Microwave">
-            Microwave
+          Microwave
           </ToggleButton>
           </header>
           <header className="App-kitchen2 button">
           <ToggleButton value="Coffee Maker" aria-label="Coffee Maker">
-            Coffee Maker
+          Coffee Maker
           </ToggleButton>
           </header>
         </ToggleButtonGroup>

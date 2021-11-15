@@ -28,21 +28,21 @@ export default function ConsumerElectronics() {
           aria-label="text formatting"
         >
                     <header className="App-consumerelectronics2 button">
-          <ToggleButton value="LED/LCD Television" aria-label="LED/LCD Television">
-            LED/LCD Television
+          <ToggleButton value="55 Inch LED TV" aria-label="55 Inch LED TV">
+          55 Inch LED TV
           </ToggleButton>
           </header>
           <header className="App-consumerelectronics2 button">
           <ToggleButton
-            value="Surround Sound System"
-            aria-label="Surround Sound System"
+            value="Home Sound System"
+            aria-label="Home Sound System"
           >
-            Surround Sound System
+            Home Sound System
           </ToggleButton>
           </header>
           <header className="App-consumerelectronics2 button">
-          <ToggleButton value="Blu-ray Player" aria-label="Blu-ray Player">
-            Blu-ray Player
+          <ToggleButton value="Blu ray Player" aria-label="Blu ray Player">
+          Blu ray Player
           </ToggleButton>
           </header>
           <header className="App-consumerelectronics2 button">
@@ -76,8 +76,8 @@ export default function ConsumerElectronics() {
           </ToggleButton>
           </header>
           <header className="App-consumerelectronics2 button">
-          <ToggleButton value="Laptop" aria-label="Laptop">
-            Laptop
+          <ToggleButton value="Laptop Computer" aria-label="Laptop Computer">
+          Laptop Computer
           </ToggleButton>
           </header>
         </ToggleButtonGroup>

@@ -28,18 +28,18 @@ export default function Environmental() {
           aria-label="text formatting"
         >
                             <header className="App-environmental2 button">
-          <ToggleButton value="window air conditioner" aria-label="window air conditioner">
-            Window Air Conditioner
+          <ToggleButton value="Window Air Conditioner" aria-label="Window Air Conditioner">
+          Window Air Conditioner
           </ToggleButton>
           </header>
           <header className="App-environmental2 button">
-          <ToggleButton value="humidifier" aria-label="humidifier">
-            Humidifier
+          <ToggleButton value="Humidifier" aria-label="Humidifier">
+          Humidifier
           </ToggleButton>
           </header>
           <header className="App-environmental2 button">
-          <ToggleButton value="heater" aria-label="heater">
-            Heater
+          <ToggleButton value="Space Heater" aria-label="Space Heater">
+          Space Heater
           </ToggleButton>
           </header>
 

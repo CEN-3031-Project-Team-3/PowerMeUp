@@ -28,18 +28,18 @@ export default function Hygenic() {
           aria-label="text formatting"
         >
                             <header className="App-hygenic2 button">
-          <ToggleButton value="hair dryer" aria-label="hair dryer">
-            Hair Dryer
+          <ToggleButton value="Hair Blow Dryer" aria-label="Hair Blow Dryer">
+          Hair Blow Dryer
           </ToggleButton>
           </header>
           <header className="App-hygenic2 button">
-          <ToggleButton value="electric shaver" aria-label="electric shaver">
-            Electric Shaver
+          <ToggleButton value="Electric Shaver" aria-label="Electric Shaver">
+          Electric Shaver
           </ToggleButton>
           </header>
           <header className="App-hygenic2 button">
-          <ToggleButton value="electric toothbrush" aria-label="electric toothbrush">
-            Electric Toothbrush
+          <ToggleButton value="Electric Toothbrush" aria-label="Electric Toothbrush">
+          Electric Toothbrush
           </ToggleButton>
           </header>
  
