@@ -54,7 +54,8 @@
   border-radius: 15px;
   margin: 5px;
   padding: 10px 20px;
-  min-width: 400px;
+  min-width: 800px;
+  min-height: 250px;
   cursor: pointer;
   border: 7px solid#b3e2f8;
   /*
@@ -75,12 +76,18 @@
   background: chartreuse;
 }
 
+.App-results.medium {
+  background:rgb(198, 238, 105);
+}
+
 .App-results.bad {
   background: rgb(182, 185, 175);
 }
 
+/*
 .App-results h1 {
   display: flex;
   align-items:flex-start;
   justify-content: space-between;
 }
+*/
