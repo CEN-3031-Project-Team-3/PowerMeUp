@@ -15,7 +15,7 @@ export default function Environmental() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following environmental appliances do you use? </h1>
+          <h1 className="appliance-headers">Which of the following environmental appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,20 +24,31 @@ export default function Environmental() {
           value={inputs}
           onChange={handleInput}
           aria-label="text formatting"
+          size="large"
+          color="warning"
         >
-          <ToggleButton value="window air conditioner" aria-label="window air conditioner">
+          <ToggleButton 
+            value="window air conditioner" 
+            aria-label="window air conditioner"
+            className="appliance-button">
             Window Air Conditioner
           </ToggleButton>
-          <ToggleButton value="humidifier" aria-label="humidifier">
+          <ToggleButton 
+            value="humidifier" 
+            aria-label="humidifier"
+            className="appliance-button">
             Humidifier
           </ToggleButton>
-          <ToggleButton value="heater" aria-label="heater">
+          <ToggleButton 
+            value="heater" 
+            aria-label="heater"
+            className="appliance-button">
             Heater
           </ToggleButton>
 
         </ToggleButtonGroup>
       </Row>
-      <Row>
+      <Row className="appliance-headers">
         <Col>
         <NavLink to="/kitchen">
         <Button onClick={() => {

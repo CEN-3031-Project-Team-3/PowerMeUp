@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #7BDAF5;
+  background-color: #3ea3be;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
 }
 
 .App-loading {
-  background-color: #b6f57b;
+  background-color: #78c72f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -83,4 +83,15 @@
   display: flex;
   align-items:flex-start;
   justify-content: space-between;
+}
+
+.appliance-headers {
+  text-align: center;
+  
+}
+
+.appliance-button {
+  min-width: 500px;
+  align-self: center;
+  background-color: rgba(250, 250, 250, 0.13);
 }

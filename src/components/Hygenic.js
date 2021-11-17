@@ -15,7 +15,7 @@ export default function Hygenic() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following hygenic appliances do you use? </h1>
+          <h1 className="appliance-headers">Which of the following hygenic appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,20 +24,31 @@ export default function Hygenic() {
           value={inputs}
           onChange={handleInput}
           aria-label="text formatting"
+          size="large"
+          color="warning"
         >
-          <ToggleButton value="hair dryer" aria-label="hair dryer">
+          <ToggleButton 
+            value="hair dryer" 
+            aria-label="hair dryer"
+            className="appliance-button">
             Hair Dryer
           </ToggleButton>
-          <ToggleButton value="electric shaver" aria-label="electric shaver">
+          <ToggleButton 
+            value="electric shaver" 
+            aria-label="electric shaver"
+            className="appliance-button">
             Electric Shaver
           </ToggleButton>
-          <ToggleButton value="electric toothbrush" aria-label="electric toothbrush">
+          <ToggleButton 
+            value="electric toothbrush" 
+            aria-label="electric toothbrush"
+            className="appliance-button">
             Electric Toothbrush
           </ToggleButton>
  
         </ToggleButtonGroup>
       </Row>
-      <Row>
+      <Row className="appliance-headers">
         <Col>
         <NavLink to="/cleaning">
         <Button onClick={() => {
