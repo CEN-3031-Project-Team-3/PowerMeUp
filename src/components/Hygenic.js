@@ -28,10 +28,10 @@ export default function Hygenic() {
           color="warning"
         >
           <ToggleButton 
-            value="hair dryer" 
-            aria-label="hair dryer"
+            value="Hair Blow Dryer" 
+            aria-label="Hair Blow Dryer"
             className="appliance-button">
-            Hair Dryer
+            Hair Blow Dryer
           </ToggleButton>
           <ToggleButton 
             value="electric shaver" 

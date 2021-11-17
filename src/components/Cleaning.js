@@ -41,18 +41,18 @@ export default function Cleaning() {
             Pressure Washer
           </ToggleButton>
           <ToggleButton
-            value="laundry washer"
-            aria-label="laundry washer"
+            value="Washing Machine"
+            aria-label="Washing Machine"
             className="appliance-button"
           >
-            Laundry Washer
+            Washing Machine
           </ToggleButton>
           <ToggleButton
-            value="laundry dryer"
-            aria-label="laundry dryer"
+            value="Clothes Dryer"
+            aria-label="Clothes Dryer"
             className="appliance-button"
           >
-            Laundry Dryer
+            Clothes Dryer
           </ToggleButton>
 
         </ToggleButtonGroup>

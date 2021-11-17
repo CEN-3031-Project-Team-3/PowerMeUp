@@ -34,10 +34,10 @@ export default function Kitchen() {
             Refrigerator
           </ToggleButton>
           <ToggleButton 
-            value="dishwashing machine" 
-            aria-label="diswashing machine" 
+            value="Dishwasher" 
+            aria-label="Dishwasher" 
             className="appliance-button">
-            Dishwashing Machine
+            Dishwasher
           </ToggleButton>
           <ToggleButton 
             value="oven" 

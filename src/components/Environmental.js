@@ -40,10 +40,10 @@ export default function Environmental() {
             Humidifier
           </ToggleButton>
           <ToggleButton 
-            value="heater" 
-            aria-label="heater"
+            value="Space Heater" 
+            aria-label="Space Heater"
             className="appliance-button">
-            Heater
+            Space Heater
           </ToggleButton>
 
         </ToggleButtonGroup>

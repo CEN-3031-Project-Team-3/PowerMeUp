@@ -28,23 +28,23 @@ export default function ConsumerElectronics() {
           color="warning"
         >
           <ToggleButton 
-            value="LED/LCD Television" 
-            aria-label="LED/LCD Television"
+            value="55 inch LED TV" 
+            aria-label="55 inch LED TV"
             className="appliance-button">
-            LED/LCD Television
+            55 Inch LED TV
           </ToggleButton>
           <ToggleButton
-            value="Surround Sound System"
-            aria-label="Surround Sound System"
+            value="Home Sound System"
+            aria-label="Home Sound System"
             className="appliance-button"
           >
-            Surround Sound System
+            Home Sound System
           </ToggleButton>
           <ToggleButton 
-            value="Blu-ray Player" 
-            aria-label="Blu-ray Player"
+            value="Bluray Player" 
+            aria-label="Bluray Player"
             className="appliance-button">
-            Blu-ray Player
+            Bluray Player
           </ToggleButton>
           <ToggleButton 
             value="Playstation 4" 
@@ -83,10 +83,10 @@ export default function ConsumerElectronics() {
             Desktop Computer
           </ToggleButton>
           <ToggleButton 
-            value="Laptop" 
-            aria-label="Laptop"
+            value="Laptop Computer" 
+            aria-label="Laptop Computer"
             className="appliance-button">
-            Laptop
+            Laptop Computer
           </ToggleButton>
         </ToggleButtonGroup>
       </Row>
