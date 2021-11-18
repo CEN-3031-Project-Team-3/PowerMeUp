@@ -21,7 +21,7 @@ export default function Results(){
         <Row className="justify-content-md-center">
             <Col sm="auto">
                 <div className="App">
-                    <header className="App-results medium">
+                    <header className="App-results2 medium">
                             <h1>Your Power Index</h1>
                             <p></p>
                             <p>is: </p>
