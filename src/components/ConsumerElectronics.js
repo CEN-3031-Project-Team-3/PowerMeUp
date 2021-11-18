@@ -15,7 +15,7 @@ export default function ConsumerElectronics() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following entertainment appliances do you use? </h1>
+          <h1 className="App-consumerelectronics">Which of the following entertainment appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,43 +24,73 @@ export default function ConsumerElectronics() {
           value={inputs}
           onChange={handleInput}
           aria-label="text formatting"
+          size="large"
+          color="warning"
         >
-          <ToggleButton value="LED/LCD Television" aria-label="LED/LCD Television">
-            LED/LCD Television
+          <ToggleButton 
+            value="55 inch LED TV" 
+            aria-label="55 inch LED TV"
+            className="appliance-button">
+            55 Inch LED TV
           </ToggleButton>
           <ToggleButton
-            value="Surround Sound System"
-            aria-label="Surround Sound System"
+            value="Home Sound System"
+            aria-label="Home Sound System"
+            className="appliance-button"
           >
-            Surround Sound System
+            Home Sound System
           </ToggleButton>
-          <ToggleButton value="Blu-ray Player" aria-label="Blu-ray Player">
-            Blu-ray Player
+          <ToggleButton 
+            value="Bluray Player" 
+            aria-label="Bluray Player"
+            className="appliance-button">
+            Bluray Player
           </ToggleButton>
-          <ToggleButton value="Playstation 4" aria-label="Playstation 4">
+          <ToggleButton 
+            value="Playstation 4" 
+            aria-label="Playstation 4"
+            className="appliance-button">
             Playstation 4
           </ToggleButton>
-          <ToggleButton value="Xbox One" aria-label="Xbox One">
+          <ToggleButton 
+            value="Xbox One" 
+            aria-label="Xbox One"
+            className="appliance-button">
             Xbox One
           </ToggleButton>
-          <ToggleButton value="Playstation 5" aria-label="Playstation 5">
+          <ToggleButton 
+            value="Playstation 5" 
+            aria-label="Playstation 5"
+            className="appliance-button">
             Playstation 5
           </ToggleButton>
-          <ToggleButton value="Xbox Series X" aria-label="Xbox Series X">
+          <ToggleButton 
+            value="Xbox Series X" 
+            aria-label="Xbox Series X"
+            className="appliance-button">
             Xbox Series X
           </ToggleButton>
-          <ToggleButton value="Chromebook" aria-label="Chromebook">
+          <ToggleButton 
+            value="Chromebook" 
+            aria-label="Chromebook"
+            className="appliance-button">
             Chromebook
           </ToggleButton>
-          <ToggleButton value="Desktop Computer" aria-label="Desktop Computer">
+          <ToggleButton 
+            value="Desktop Computer" 
+            aria-label="Desktop Computer"
+            className="appliance-button">
             Desktop Computer
           </ToggleButton>
-          <ToggleButton value="Laptop" aria-label="Laptop">
-            Laptop
+          <ToggleButton 
+            value="Laptop Computer" 
+            aria-label="Laptop Computer"
+            className="appliance-button">
+            Laptop Computer
           </ToggleButton>
         </ToggleButtonGroup>
       </Row>
-      <Row>
+      <Row className="appliance-headers">
         <Col>
         <NavLink to="/loading">
         <Button onClick={() => {

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #7BDAF5;
+  background-color: #3ea3be;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
 }
 
 .App-loading {
-  background-color: #b6f57b;
+  background-color: #78c72f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,30 +54,200 @@
   border-radius: 15px;
   margin: 5px;
   padding: 10px 20px;
-  min-width: 400px;
+  min-width: 800px;
+  min-height: 250px;
   cursor: pointer;
   border: 7px solid#b3e2f8;
-  /*
+
+}
+
+.App-results2{
   border-radius: 15px;
-  background-color: chartreuse;
-  align-content: center;
-  min-height: 200px; 
-  min-width: 200px;
-  max-width: max-content ; 
-  display: flex;
-  text-align: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  */
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 800px;
+  min-height: 250px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+}
+
+
+.App-results2.good {
+  background: chartreuse;
+}
+
+.App-results2.medium {
+  background:rgb(198, 238, 105);
+}
+
+.App-results2.bad {
+  background: rgb(182, 185, 175);
+
 }
 
 .App-results.good {
   background: chartreuse;
 }
 
+.App-results.medium {
+  background:rgb(198, 238, 105);
+}
+
 .App-results.bad {
   background: rgb(182, 185, 175);
 }
+
+/*
+.App-results h1 {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
+*/
+
+.appliance-headers {
+  text-align: center;
+  
+}
+
+.appliance-button {
+  min-width: 500px;
+  align-self: center;
+  background-color: rgba(167, 167, 167, 0.384) !important;
+}
+
+/*Lines 87-238 Omar 11-9-21*/
+.App-cleaning
+{
+  text-align: center;
+
+  background: rgb(125, 127, 255);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+}
+
+/* .App-cleaning2
+{
+  background: rgb(187, 208, 255);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#b3e2f8;
+} */
+
+.App-consumerelectronics
+{
+  text-align: center;
+
+  background: rgb(125, 255, 125);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffbf00;
+}
+
+/* .App-consumerelectronics2
+{
+  background: rgb(203, 255, 203);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ffbf00;
+} */
+
+.App-environmental
+{
+  text-align: center;
+
+  background: rgb(128, 128, 128);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#40ff00;
+}
+
+/* .App-environmental2
+{
+  background: rgb(207, 207, 207);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#40ff00;
+} */
+
+.App-hygenic
+{
+  text-align: center;
+
+  background: rgb(253, 125, 243);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#00bfff;
+}
+
+/* .App-hygenic2
+{
+  background: rgb(47, 255, 245);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#fac5ff;
+} */
+
+.App-kitchen
+{
+  text-align: center;
+
+  background: rgb(255, 184, 117);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ff00ff;
+}
+
+/* .App-kitchen2
+{
+  background: rgb(255, 225, 181);
+  
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  min-width: 400px;
+  cursor: pointer;
+  border: 7px solid#ff00ff;
+} */
+
 
 .App-results h1 {
   display: flex;

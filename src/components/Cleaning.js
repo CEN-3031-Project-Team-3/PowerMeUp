@@ -15,7 +15,7 @@ export default function Cleaning() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following cleaning appliances do you use? </h1>
+          <h1 className="App-cleaning">Which of the following cleaning appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,32 +24,40 @@ export default function Cleaning() {
           value={inputs}
           onChange={handleInput}
           aria-label="text formatting"
+          size="large"
+          color="warning"
         >
-          <ToggleButton value="vacuum cleaner" aria-label="vacuum cleaner">
+          <ToggleButton 
+            value="vacuum cleaner" 
+            aria-label="vacuum cleaner" 
+            className="appliance-button">
             Vacuum Cleaner
           </ToggleButton>
           <ToggleButton
             value="pressure washer"
             aria-label="pressure washer"
+            className="appliance-button"
           >
             Pressure Washer
           </ToggleButton>
           <ToggleButton
-            value="laundry washer"
-            aria-label="laundry washer"
+            value="Washing Machine"
+            aria-label="Washing Machine"
+            className="appliance-button"
           >
-            Laundry Washer
+            Washing Machine
           </ToggleButton>
           <ToggleButton
-            value="laundry dryer"
-            aria-label="laundry dryer"
+            value="Clothes Dryer"
+            aria-label="Clothes Dryer"
+            className="appliance-button"
           >
-            Laundry Dryer
+            Clothes Dryer
           </ToggleButton>
 
         </ToggleButtonGroup>
       </Row>
-      <Row>
+      <Row className="appliance-headers">
         <Col>
         <NavLink to="/ConsumerElectronics">
         <Button onClick={() => {
