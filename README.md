@@ -1,6 +1,28 @@
-# Getting Started with Create React App
+# Getting Started
+
+Welcome to our app! 
+
+To get started clone the repository to your local machine, open a terminal window, navigate to the project directory, and run:
+`npm install`
+`npm start`
+
+This will install all the required dependencies, and start the web app in a browser
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Developer Documentation
+
+## Styling Tools
+
+To create the UI of our app we used two different styling libraries. The first was [react-bootstrap](https://react-bootstrap.github.io/). It provided us with a simple row column grid array to lay things out. The second library we used was [mui](https://mui.com/api/toggle-button-group/#main-content). The main reason for this library was its expansive selection of UI widgets and components. The `ToggleButtonGroup` component specifically gave us the form functionality that is present all throgughout our app.
+
+## Design Architecture
+
+We ended up going for a more quick and dirty approach with this app just to get things up and running, but The data and views are seperated as much as we were able to. All the different pages of the app are stored as components, Our frebase initialization and CRUD functionality is present inside two seperate utility files. And our data is stored within a singleton class.
+
+## Navigation
+
+For navigation we used the 
 
 ## Available Scripts
 
