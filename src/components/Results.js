@@ -8,7 +8,7 @@ export default function Results(){
     console.log(index)
     const maxIndex = 1000;
 
-    const ratio = index/maxIndex;
+    const ratio = 500;
 
     return (
         <Stack>
@@ -32,8 +32,16 @@ export default function Results(){
                 </div>
             </Col>
         </Row>
+        <Row xs="auto">
+            <Col>
+                <NavLink to="/">
+                    <Button>Return</Button>
+                </NavLink>
+            </Col>
+        </Row>
         </Stack>
 
+        
         /*
         <Stack gap={4}>
 
