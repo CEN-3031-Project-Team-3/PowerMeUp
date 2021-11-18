@@ -3,7 +3,9 @@
 Welcome to our app! 
 
 To get started clone the repository to your local machine, open a terminal window, navigate to the project directory, and run:
+
 `npm install`
+
 `npm start`
 
 This will install all the required dependencies, and start the web app in a browser.
