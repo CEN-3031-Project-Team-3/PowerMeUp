@@ -15,7 +15,7 @@ export default function Kitchen() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1>Which of the following kitchen appliances do you use? </h1>
+          <h1 className="App-kitchen">Which of the following kitchen appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
@@ -24,31 +24,48 @@ export default function Kitchen() {
           value={inputs}
           onChange={handleInput}
           aria-label="text formatting"
+          size="large"
+          color="warning"
         >
-          <ToggleButton value="refrigerator" aria-label="refrigerator">
+          <ToggleButton 
+            value="refrigerator" 
+            aria-label="refrigerator" 
+            className="appliance-button">
             Refrigerator
           </ToggleButton>
-          <ToggleButton
-            value="dishwashing machine"
-            aria-label="diswashing machine"
-          >
-            Dishwashing Machine
+          <ToggleButton 
+            value="Dishwasher" 
+            aria-label="Dishwasher" 
+            className="appliance-button">
+            Dishwasher
           </ToggleButton>
-          <ToggleButton value="oven" aria-label="oven">
+          <ToggleButton 
+            value="oven" 
+            aria-label="oven" 
+            className="appliance-button">
             Oven
           </ToggleButton>
-          <ToggleButton value="toaster" aria-label="toaster">
+          <ToggleButton 
+            value="toaster" 
+            aria-label="toaster" 
+            className="appliance-button">
             Toaster
           </ToggleButton>
-          <ToggleButton value="Microwave" aria-label="Microwave">
+          <ToggleButton 
+            value="Microwave" 
+            aria-label="Microwave" 
+            className="appliance-button">
             Microwave
           </ToggleButton>
-          <ToggleButton value="Coffee Maker" aria-label="Coffee Maker">
+          <ToggleButton 
+            value="Coffee Maker" 
+            aria-label="Coffee Maker" 
+            className="appliance-button">
             Coffee Maker
           </ToggleButton>
         </ToggleButtonGroup>
       </Row>
-      <Row>
+      <Row className="appliance-headers">
         <Col>
         <NavLink to="/hygenic">
         <Button onClick={() => {

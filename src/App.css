@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #7BDAF5;
+  background-color: #3ea3be;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
 }
 
 .App-loading {
-  background-color: #b6f57b;
+  background-color: #78c72f;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -58,6 +58,7 @@
   min-height: 250px;
   cursor: pointer;
   border: 7px solid#b3e2f8;
+
 }
 
 .App-results2{
@@ -81,6 +82,7 @@
 
 .App-results2.bad {
   background: rgb(182, 185, 175);
+
 }
 
 .App-results.good {
@@ -101,7 +103,9 @@
   align-items:flex-start;
   justify-content: space-between;
 }
+
 */
+
 .appliance-headers {
   text-align: center;
   
