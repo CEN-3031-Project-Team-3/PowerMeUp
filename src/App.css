@@ -81,12 +81,14 @@
 .appliance-button {
   min-width: 500px;
   align-self: center;
-  background-color: rgba(250, 250, 250, 0.13);
+  background-color: rgba(167, 167, 167, 0.384) !important;
 }
 
 /*Lines 87-238 Omar 11-9-21*/
 .App-cleaning
 {
+  text-align: center;
+
   background: rgb(125, 127, 255);
   
   border-radius: 15px;
@@ -97,7 +99,7 @@
   border: 7px solid#b3e2f8;
 }
 
-.App-cleaning2
+/* .App-cleaning2
 {
   background: rgb(187, 208, 255);
   
@@ -107,10 +109,12 @@
   min-width: 400px;
   cursor: pointer;
   border: 7px solid#b3e2f8;
-}
+} */
 
 .App-consumerelectronics
 {
+  text-align: center;
+
   background: rgb(125, 255, 125);
   
   border-radius: 15px;
@@ -121,7 +125,7 @@
   border: 7px solid#ffbf00;
 }
 
-.App-consumerelectronics2
+/* .App-consumerelectronics2
 {
   background: rgb(203, 255, 203);
   
@@ -131,35 +135,12 @@
   min-width: 400px;
   cursor: pointer;
   border: 7px solid#ffbf00;
-}
-
-.App-entertainment
-{
-  background: rgb(255, 196, 119);
-  
-  border-radius: 15px;
-  margin: 5px;
-  padding: 10px 20px;
-  min-width: 400px;
-  cursor: pointer;
-  border: 7px solid#ffff00;
-}
-
-.App-entertainment2
-{
-  background: rgb(255, 231, 196);
-  
-  border-radius: 15px;
-  margin: 5px;
-  padding: 10px 20px;
-  min-width: 400px;
-  cursor: pointer;
-  border: 7px solid#ffff00;
-}
-
+} */
 
 .App-environmental
 {
+  text-align: center;
+
   background: rgb(128, 128, 128);
   
   border-radius: 15px;
@@ -170,7 +151,7 @@
   border: 7px solid#40ff00;
 }
 
-.App-environmental2
+/* .App-environmental2
 {
   background: rgb(207, 207, 207);
   
@@ -180,10 +161,12 @@
   min-width: 400px;
   cursor: pointer;
   border: 7px solid#40ff00;
-}
+} */
 
 .App-hygenic
 {
+  text-align: center;
+
   background: rgb(253, 125, 243);
   
   border-radius: 15px;
@@ -194,7 +177,7 @@
   border: 7px solid#00bfff;
 }
 
-.App-hygenic2
+/* .App-hygenic2
 {
   background: rgb(47, 255, 245);
   
@@ -204,10 +187,12 @@
   min-width: 400px;
   cursor: pointer;
   border: 7px solid#fac5ff;
-}
+} */
 
 .App-kitchen
 {
+  text-align: center;
+
   background: rgb(255, 184, 117);
   
   border-radius: 15px;
@@ -218,7 +203,7 @@
   border: 7px solid#ff00ff;
 }
 
-.App-kitchen2
+/* .App-kitchen2
 {
   background: rgb(255, 225, 181);
   
@@ -228,7 +213,7 @@
   min-width: 400px;
   cursor: pointer;
   border: 7px solid#ff00ff;
-}
+} */
 
 
 .App-results h1 {

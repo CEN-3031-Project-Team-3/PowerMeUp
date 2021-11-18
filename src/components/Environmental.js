@@ -15,7 +15,7 @@ export default function Environmental() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1 className="appliance-headers">Which of the following environmental appliances do you use? </h1>
+          <h1 className="App-environmental">Which of the following environmental appliances do you use? </h1>
         </Col>
       </Row>
       <Row>

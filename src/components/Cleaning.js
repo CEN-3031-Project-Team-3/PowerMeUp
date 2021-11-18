@@ -15,7 +15,7 @@ export default function Cleaning() {
     <Stack gap={5}>
       <Row>
         <Col>
-          <h1 className="appliance-headers">Which of the following cleaning appliances do you use? </h1>
+          <h1 className="App-cleaning">Which of the following cleaning appliances do you use? </h1>
         </Col>
       </Row>
       <Row>
