@@ -52,7 +52,6 @@ export default function Environmental() {
         <Col>
         <NavLink to="/kitchen">
         <Button onClick={() => {
-          console.log(inputs.length)
             if (inputs.length>=1) { 
               inputs.forEach(element => {
                 record.add(element);
