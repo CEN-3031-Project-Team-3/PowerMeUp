@@ -35,8 +35,11 @@ After the user completes the questionaire, their values are averaged together, a
 
 ## List of All Libraries Used
 [react-bootstrap](https://react-bootstrap.github.io/)
+
 [mui](https://mui.com/api/toggle-button-group/#main-content)
+
 [react-router-dom](https://reactrouter.com/)
+
 [Firebase](https://firebase.google.com/)
 
 
