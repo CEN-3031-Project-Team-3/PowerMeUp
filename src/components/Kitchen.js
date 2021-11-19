@@ -2,7 +2,7 @@ import React from "react";
 import {ToggleButton, ToggleButtonGroup} from "@mui/material/";
 import {Row, Col, Button, Stack} from "react-bootstrap/";
 import { NavLink } from 'react-router-dom';
-import record from './inputRecord'
+import record from '../data/inputRecord'
 
 export default function Kitchen() {
   const [inputs, setInputs] = React.useState([]);

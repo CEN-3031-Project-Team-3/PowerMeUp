@@ -1,8 +1,7 @@
 import React from "react";
 import crud from "../utils/crud";
-import record from './inputRecord';
+import record from '../data/inputRecord';
 import { useHistory } from "react-router-dom";
-import results_record from "./ResultsRecord";
 
 
 export default function Loading() {
@@ -11,7 +10,6 @@ export default function Loading() {
         const value = await crud.sendResults(record.getData())
         if (value != null) {
             console.log("Document ID: ", value);
-            results_record.set(500);
             history.push('/results')
         } else {
             console.log("Error")
