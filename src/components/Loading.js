@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom";
 export default function Loading() {
     let history = useHistory();
     (async () => {
-        const value = await crud.sendResults(record.getData())
+        const value = await crud.sendResults(record.getData(), record.computeEnergyUsage())
         if (value != null) {
             console.log("Document ID: ", value);
             history.push('/results')
